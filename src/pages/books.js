@@ -20,7 +20,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Book |  D.L. Smith" />
+                <Helmet title="Book | Henrietta A Abbey" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -35,14 +35,14 @@ const ATB = (props) => {
 
                         <BookInfo
                             data={{
-                                title: `Beautiful Sunset`,
+                                title: `Memoire Memes `,
                                 // spanFirst: `Book 1: THE SHIPS`,
                                 imgSrc: Book3,
                                 id: 'the_gifted_one',
                                 content:
                                     `
                                         <p>
-                                        Beautiful Sunset is the memory of an 89-year old woman. It shows all the trials and joys of her life. Some bad, some good, but all made her who she is today.
+                                        It's a memoir. It's an interesting story of the author's life. She narrates her life history, from childhood through kindergarten to the university. She migrated to the United States and experienced motherhood and marriage which ended so abruptly that she ends up questioning where her life was going. At the end of the story, she realizes that she needs to pick up her broken life and start all afresh with one thing in mind, she has learned her lesson.
                                         </p>
                                         
                                         
@@ -51,13 +51,10 @@ const ATB = (props) => {
 
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
-                                    barnes: 'https://www.barnesandnoble.com/w/beautiful-sunset-d-l-smith/1140316550?ean=9781648955815',
-                                    amazon: 'https://www.amazon.com/Beautiful-Sunset-D-L-Smith-ebook/dp/B09HXYF823/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1637446499&sr=8-1',
+                                   amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey-ebook/dp/B09LCTMBCY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1640208528&sr=8-1',
                                 },
                                 paperback: {
-                                    amazon: 'https://www.amazon.com/Beautiful-Sunset-D-L-Smith/dp/1648955800/ref=sr_1_1?keywords=9781648955808&qid=1637446499&qsid=136-1487773-8969818&sr=8-1&sres=1648955800&srpt=ABIS_BOOK',
-                                    barnes: 'https://www.barnesandnoble.com/w/beautiful-sunset-d-l-smith/1140316550?ean=9781648955808',
-                                    booksamillion: 'https://www.booksamillion.com/p/Beautiful-Sunset/D-L-Smith/9781648955808?id=8374469245196',
+                                    amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey/dp/164895636X/ref=sr_1_1?crid=WF5LFWQI2IWO&keywords=9781648956362&qid=1640208357&sprefix=9781648956362%2Caps%2C277&sr=8-1',
                                 }
                             }}
                         />

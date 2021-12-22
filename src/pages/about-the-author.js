@@ -22,7 +22,7 @@ const ATB = (props) => {
 
                         <div className="heading-quote column">
                             <div className="author-image-container">
-                                <img src={AuthorImg} alt=" D.L. Smith"/>
+                                <img src={AuthorImg} alt=" Henrietta A Abbey"/>
                             </div>
 
                             {/* <div className="heading-quote"> */}
@@ -32,30 +32,19 @@ const ATB = (props) => {
                                 </h4>
                                 {/* </span> */}
                     
-                            
+                                
 
                         </div>
 
                         <article className="article-section column" id="author">
                             <p>
-                            As my book "Beautiful Sunset" sets forward, I was a farm girl, who worked very hard all the time.  I vowed to become a private secretary and worked tirelessly to that end. 
-                            </p>
-                            <p> 
-                            I married and had children and then had to get a divorce because of my husband's infidelity.
-                            </p> 
-                            <p>
-                            I finally had to move to my new home where I met my second husband, who was 22 years older than I was.  When he was afraid the years would be too much for me, I told him, "But oh, what a beautiful sunset it could be!"  Difference in age can be a plus for two people- no matter who is older!
-                             </p>  
-                            <p>
-                            The highlight of my life has been my children and my being able to help people as a nutrition counselor.  I am happier now than I've ever been in my 90 years!
-                            </p>
-
-                                             
+                            Education. I had the opportunity to observe and assist children learn and play at the Lehman College Early Childhood Center.  I continue to work full time with the New York Police Department as a Senior Police Administrative Aide.  I have been working there for over twenty years doing clericals, administrative and supervisory duties. The length of my service with the Police Department shows how dedicated I am to the job.  I am also an active learner.  I participate in class, read all my notes, textbooks, and I am very punctual in school and at work.  I am a hard-working student and worker because from childhood I have been exercising determination to do the very best in life.  I started serious learning, reading, and studying at age twelve.  I read novels, fiction, and comics.  I love to look for new words and meanings in the dictionary and on the internet.  With a keen interest in reading, I received a scholarship during secondary and post-secondary education.
+                            </p>        
             
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer </span>
-                                    <span className="ata-name"> D.L. Smith</span>
+                                    <span className="ata-name"> Henrietta A Abbey</span>
                                 </span>
                             </p>
 

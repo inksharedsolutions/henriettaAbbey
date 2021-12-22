@@ -12,13 +12,13 @@ const Author = () => {
 
                         <p data-aos="fade-up" data-aos-duration="2000">
                        
-As my book "Beautiful Sunset" sets forward, I was a farm girl, who worked very hard all the time. I vowed to become a private secretary and worked tirelessly to that end...
+                        Education. I had the opportunity to observe and assist children learn and play at the Lehman College Early Childhood Center.  I continue to work full time with the New York Police Department as a Senior Police Administrative Aide...
  
                         </p>
 
                         <h1 className="author-name-tag" >
                             <span></span>
-                            <span> D.L. Smith</span>
+                            <span> Henrietta A Abbey</span>
                         </h1>
 
                         <span className="author-tagline">Author & Writer</span>

@@ -10,7 +10,7 @@ const Banner = () => {
                         <div className="grid-child-elem">
                             <div className="banner-text" id = "banner-txt">
                                 <h1>
-                                BEAUTIFUL SUNSET                             
+                                Memoire Memes                            
                                 
                                 </h1>
                                
