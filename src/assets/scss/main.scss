@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import "responsive";
+@import "normalize";
+@import "banner";
+@import "navigation";
+@import "content";
+@import "footer";
+@import "blog";
+
+
+
+
+/*Fonts Declaration*/
+@font-face {
+    font-family: "augusta-free";
+    /*a name to be used later*/
+    src: url("../../../static/font/august_free_bold.ttf") format('truetype');
+    /*URL to font*/
+    // font-weight: normal;
+}
+@font-face {
+    font-family: "NARROW";
+    src: url("../../../static/font/NARROW.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "ALTCAPS";
+    src: url("../../../static/font/ALTCAPS.ttf")format('truetype');
+}
+
+@font-face {
+    font-family: "Ganetha Swash";
+    src: url("../../../static/font/GanethaSwash.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "Ganetha";
+    src: url("../../../static/font/Ganetha.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "optimusprinceps";
+    src: url("../../../static/font/optimusprinceps.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "optimusprincepssemibold";
+    src: url("../../../static/font/optimusprincepssemibold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'FS Elliot Pro-Bold';
+    src: url("../../../static/font/FSElliotProBold.otf")format('truetype');
+}
+@font-face {
+    font-family: 'TrajanPro-Bold';
+    src: url("../../../static/font/TrajanPro-Bold.otf")format('truetype');
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-size: 1.6em;
+    color: #ffffff !important;
+}
+
+h3,
+h4 {
+    font-size: 1.2em;
+}
+
+h5,
+h6 {
+    font-size: 1.0em;
+}
+
+
+p,
+a,
+qoute,
+span,
+blockquote {
+    font-size: 1.5em;
+    // color: #7b7b7bee !important;
+}
+
+// a {
+//     color: rgb(255, 255, 255) !important;
+    
+// }
+
+p {
+    line-height: 1.7;
+    margin: 2.2em 0;
+    color: #000000;
+    
+}
+
+label {
+    color: #000000;
+}
+
+button {
+    // background-color: #1d2e7e;
+    border: none;
+    padding: 2% 20px;
+    margin-top: 6%;
+
+    a {
+        color: rgb(136, 135, 135);
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 18px;
+    }
+}
+.btn-book-featured:hover {
+    background-color: #bc7e03;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn-book-featured {
+
+    background: none;
+    border: 2px solid #787676;
+    border-radius: 40px;
+    padding: 2% 4em;
+    margin-top: 5%;
+
+    a {
+        text-transform: uppercase;
+    }
+}
+
+#___gatsby {
+    background: white;
+        
+
+    // background: #1F1F21;
+   
+}
+.ata-name {
+    color: #000000 ;
+    font-family: "augusta-free";
+    font-size: 4.3vw;
+}
+#author{
+    font-size: 1em;
+}
+.contactMessage {
+	font-size: 25px ;
+	margin-bottom: 24px;
+	color: #000000;
+}
+
+
+
+/*Grid Elements*/
+
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin: 0 5%;
+    align-items: center;
+}
+
+.grid-template-four-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.container-gt {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.content-wraps{
+    h1{
+        span{
+            line-height: 1;
+            text-shadow: 2px 5px #535353;
+
+        }
+    }
+}
