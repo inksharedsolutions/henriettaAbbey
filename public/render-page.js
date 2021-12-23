@@ -1646,7 +1646,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "d7c989b11a96b0f091bf69f921070bc0"
+    "cacheDigest": "39c78af2438056b25dae65df7dee9287"
   }
 }];
 /* global plugins */
