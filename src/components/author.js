@@ -11,7 +11,7 @@ const Author = () => {
 
                     <div className="grid-child" id="author-contents">
                         <p data-aos="fade-up" data-aos-duration="2000">
-                        Education. I had the opportunity to observe and assist children learn and play at the Lehman College Early Childhood Center.  I continue to work full time with the New York Police Department as a Senior Police Administrative Aide...
+                        Education.I had the opportunity to observe and assist children learn and play at the Lehman College Early Childhood Center.  I continue to work full time with the New York Police Department as a Senior Police Administrative Aide...
                         </p>
                         <h1 className="author-name-tag" >
                             <span></span>
@@ -28,7 +28,6 @@ const Author = () => {
                     <div className="grid-child" id="author-image-container">
                         <img alt="author-img" src={AuthorImg} data-aos="fade-up" data-aos-duration="3000" />
                     </div>
-
                 </div>
             </section>
         </>
