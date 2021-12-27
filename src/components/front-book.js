@@ -24,7 +24,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p data-aos="fade-up" data-aos-duration="2000">
-                            It's a memoir. It's an interesting story of the author's life. She narrates her life history, from childhood through kindergarten to the university. She migrated to the United States and experienced motherhood and marriage which ended so abruptly that she ends up questioning where her life was going. At the end of the story, she realizes that she needs to pick up her broken life and start all afresh with one thing in mind, she has learned her lesson.
+                            It's a memoir. It's an interesting story of the author's life. She narrates her life history, from childhood through kindergarten to the university. She migrated to the United States and experienced motherhood and marriage which ended so abruptly that she ends up questioning where her life was going.
                             </p>
 
                             <button className="btn-book-featured" data-aos="fade-up" data-aos-duration="3000">
