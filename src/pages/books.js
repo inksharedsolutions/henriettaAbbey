@@ -57,7 +57,7 @@ const ATB = (props) => {
                                 paperback: {
                                     amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey/dp/164895636X/ref=sr_1_1?crid=WF5LFWQI2IWO&keywords=9781648956362&qid=1640208357&sprefix=9781648956362%2Caps%2C277&sr=8-1',
                                     barnes: 'https://www.barnesandnoble.com/w/memoire-memes-dr-henrietta-a-abbey/1140505764?ean=9781648956362',
-                                    booksamillion: 'https://www.booksamillion.com/search?filter=&id=8374469245196&query=9781648956362',
+                                    booksamillion: 'https://www.booksamillion.com/p/Memoire-Memes/Henrietta-A-Abbey/9781648956362?id=8374469245196&__cf_chl_jschl_tk__=lxkNLhI0wNaut4yC8VmlmpN_TUMgvFeRRVcMJNPDQgY-1640785134-0-gaNycGzNCtE',
                                 }
                             }}
                         />
