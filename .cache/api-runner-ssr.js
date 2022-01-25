@@ -1,10 +1,10 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('C:/Users/Dave/Desktop/project/henriettaAbbey/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Davie/Projects/henriettaAbbey/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('C:/Users/Dave/Desktop/project/henriettaAbbey/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('D:/Davie/Projects/henriettaAbbey/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"static/logo/logo4.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"39c78af2438056b25dae65df7dee9287"},
     }]
 /* global plugins */

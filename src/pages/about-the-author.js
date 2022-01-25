@@ -36,16 +36,24 @@ const ATB = (props) => {
                                 <img src={AuthorImg} alt=" Henrietta A Abbey"/>
                             </div>
 
+                            <div className="author-philosophy">
+                                Persever to win. Determination, diligence, and hard work result in success. Although the dream may delay tarry for it. Backward never, forward ever. One day at a time. When you loose don't give up, get up again and continue where you left off. Set short and long term goals in life and progress in life. Every down experience is a lesson not to be repeated. Heed to warning signs. Every individual needs a mentor to look up to for effective balanced growth in life. - Dr. Henreitta Abbey
+                            </div>
+
                         </div>
 
                         <article className="article-section column" id="author">
                                 <p>
-                                    Education. I had the opportunity to observe and assist children learn and play at the Lehman College Early Childhood Center.  I continue to work full time with the New York Police Department as a Senior Police Administrative Aide.  I have been working there for over twenty years doing clericals, administrative and supervisory duties. The length of my service with the Police Department shows how dedicated I am to the job.  I am also an active learner.  I participate in class, read all my notes, textbooks, and I am very punctual in school and at work.  I am a hard-working student and worker because from childhood I have been exercising determination to do the very best in life.  I started serious learning, reading, and studying at age twelve.  I read novels, fiction, and comics.  I love to look for new words and meanings in the dictionary and on the internet.  With a keen interest in reading, I received a scholarship during secondary and post-secondary education.
+                                    Dr. Henrietta Abbey graduated from Walden University in 2021. She received a doctorate degree in Philosophy. She has two masters' degrees and bachelor degree.
+                                    Also, has an associate degree in Arts Applied Science in Early Childhood Education. She is currently an active veteran employee for the New York City Police Department
+                                    for over 20 years. She was inspired to write poems and books at the age of 16. Her mentor was "Cadee", an African writer. in her teens she wrote her daily activities in 
+                                    diaries and journals. She read adventure, mystery, discovery, comic, romance, and literally books. Her favorite comic book was "The adventures of Tintin". She has only two 
+                                    children, twins, and three siblings. She currently lives in the United States of America.
                                 </p>   
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer </span>
-                                    <span className="ata-name"> Henrietta A Abbey</span>
+                                    <span className="ata-name"> Dr. Henrietta A Abbey</span>
                                 </span>
                             </p>
 
