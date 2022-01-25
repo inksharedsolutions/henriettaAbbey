@@ -30,8 +30,18 @@
 	}
 }
 
+.parallax-bottom {
+    background: url("../../../static/banner/bb-min.jpg");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+}
+
 #main-upper-author {
-	background: linear-gradient(to bottom, #ffffff 0,#c8c8c8); 
+	background: linear-gradient(to bottom, #fabc83 0,#bab5af); 
 	padding: 6% 0;
 	text-align: center;
 	position: relative;
@@ -70,7 +80,7 @@
 	/*changes*/
 	
 	background: linear-gradient(
-		180deg, #c8c8c8 0, #ffffff);
+		180deg, #fabc83 0, #fabc83);
 	padding: 6% 0;
 	text-align: center;
 	position: relative;
@@ -111,7 +121,7 @@
 
 .mid-main {
 	text-align: center;
-	background:#e5e5e5!important;
+	background:#bab5af!important;
 	// background: #090911;
 	padding: 6% 0;
 
@@ -422,16 +432,6 @@
 /* End of Ant Customization*/
 
 /*Bottom*/
-
-.parallax-bottom {
-	background: url("../../../static/banner/b3.png");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 60vh;
-}
 
 .flex-container-fx{
 	padding: 0 46px;

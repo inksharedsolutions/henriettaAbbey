@@ -11,11 +11,11 @@ const Author = () => {
 
                     <div className="grid-child" id="author-contents">
                         <p data-aos="fade-up" data-aos-duration="2000">
-                        Education.I had the opportunity to observe and assist children learn and play at the Lehman College Early Childhood Center.  I continue to work full time with the New York Police Department as a Senior Police Administrative Aide...
+                        Dr. Henrietta Abbey graduated from Walden University in 2021. She received a doctorate degree in Philosophy. She has two masters' degrees and bachelor degree. Also, has an associate degree in Arts Applied Science in Early Childhood Education. She is currently an active veteran employee for the New York City Police Department for over 20 years.
                         </p>
                         <h1 className="author-name-tag" >
                             <span></span>
-                            <span> Henrietta A Abbey</span>
+                            <span>Dr. Henrietta A Abbey</span>
                         </h1>
 
                         <span className="author-tagline">Author & Writer</span>
