@@ -18,6 +18,8 @@ const BookInfo = (props)=>{
 
                         <h1>{props.data.title}</h1>
 
+                        {/* <h5> {props.data.title} </h5> */}
+
                         <p className="sub-heading">
                             {props.data.spanFirst}
                         </p>
