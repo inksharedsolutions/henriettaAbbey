@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
+import BookInfo2 from '../components/book-info/book-info2'
 import { DiscussionEmbed } from "disqus-react"
 import Book3 from '../../static/books/book.png'
 import sample from '../../static/books/sample.png'
@@ -62,7 +63,7 @@ const ATB = (props) => {
                             }}
                         />
 
-                        <BookInfo
+                        <BookInfo2
                             data={{
                                 title: `Social Networking as a Motivator for Social Gathering`,
                                 // spanFirst: `Book 1: THE SHIPS`,
@@ -76,21 +77,10 @@ const ATB = (props) => {
                                         Coming Soon
                                         </p>
                                     `,
-
-                                ebooks: {
-                                    // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
-                                    //barnes: 'https://www.barnesandnoble.com/w/memoire-memes-dr-henrietta-a-abbey/1140505764?ean=9781648956379',
-                                    //amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey-ebook/dp/B09LCTMBCY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1640208528&sr=8-1',
-                                },
-                                paperback: {
-                                    // amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey/dp/164895636X/ref=sr_1_1?crid=WF5LFWQI2IWO&keywords=9781648956362&qid=1640208357&sprefix=9781648956362%2Caps%2C277&sr=8-1',
-                                    // barnes: 'https://www.barnesandnoble.com/w/memoire-memes-dr-henrietta-a-abbey/1140505764?ean=9781648956362',
-                                    //booksamillion: 'https://www.booksamillion.com/p/Memoire-Memes/Henrietta-A-Abbey/9781648956362?id=8374469245196&__cf_chl_jschl_tk__=lxkNLhI0wNaut4yC8VmlmpN_TUMgvFeRRVcMJNPDQgY-1640785134-0-gaNycGzNCtE',
-                                }
                             }}
                         />
 
-                        <BookInfo
+                        <BookInfo2
                             data={{
                                 title: `A Glimpse at Wall Street`,
                                 // spanFirst: `Book 1: THE SHIPS`,
@@ -103,17 +93,6 @@ const ATB = (props) => {
                                         Coming Soon
                                         </p>
                                     `,
-
-                                ebooks: {
-                                    // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
-                                    //barnes: 'https://www.barnesandnoble.com/w/memoire-memes-dr-henrietta-a-abbey/1140505764?ean=9781648956379',
-                                    //amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey-ebook/dp/B09LCTMBCY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1640208528&sr=8-1',
-                                },
-                                paperback: {
-                                    // amazon: 'https://www.amazon.com/Memoire-Memes-Dr-Henrietta-Abbey/dp/164895636X/ref=sr_1_1?crid=WF5LFWQI2IWO&keywords=9781648956362&qid=1640208357&sprefix=9781648956362%2Caps%2C277&sr=8-1',
-                                    // barnes: 'https://www.barnesandnoble.com/w/memoire-memes-dr-henrietta-a-abbey/1140505764?ean=9781648956362',
-                                    //booksamillion: 'https://www.booksamillion.com/p/Memoire-Memes/Henrietta-A-Abbey/9781648956362?id=8374469245196&__cf_chl_jschl_tk__=lxkNLhI0wNaut4yC8VmlmpN_TUMgvFeRRVcMJNPDQgY-1640785134-0-gaNycGzNCtE',
-                                }
                             }}
                         />
 

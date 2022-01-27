@@ -70,7 +70,7 @@ const Contact = (props) => {
                                         type="text" />
 
                                 </div>
-
+ 
                                 <div className="column is-half">
 
                                     <Inputs
