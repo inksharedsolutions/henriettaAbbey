@@ -1,6 +1,6 @@
 import React from 'react'
 import BookLink from '../book-link/book-link'
-
+import BookLink2 from '../book-link/book-link'
 
 const BookInfo = (props)=>{
     return(
@@ -31,7 +31,6 @@ const BookInfo = (props)=>{
 
                     </section>
 
-
                     <BookLink
                         data={{
                             ebooks:{
@@ -49,6 +48,12 @@ const BookInfo = (props)=>{
                             isNonfront:true,
                         }}
                     />
+
+                    {/* <BookLink2
+                        data2={{ 
+
+                         }}
+                    /> */}
 
                 </div>	
             </div>
