@@ -5,7 +5,7 @@ const Newsletter = () => {
 
 
     const onSubmitForm = (e) => {
-            
+
         e.preventDefault();
         const form = e.target;
         const data = new FormData(form);
@@ -27,26 +27,35 @@ const Newsletter = () => {
 
     return (
         <>
+
             <section className="newsletter-section">
+
                 <div className="container-gt">
-                    <form
-                        onSubmit={(e) => onSubmitForm(e)}
-                        action = "https://formspree.io/f/mknkvenn"
-                        method="POST"
-                    >
+
+                    <form onSubmit={(e) => onSubmitForm(e)}
+                        action="https://formspree.io/f/mknkvenn"
+                        method="POST">
 
                         <div className="form-newsletter-wrapper">
+
                             <input name="email" type="email" placeholder="Enter email" />
 
-                            <input name="author_name" type="hidden" value=' Henrietta A Abbey' />
+                            <input name="author_name" type="hidden" value='Henrietta A Abbey' />
+
                             <button>
+
                                 <input type="submit" name="submit" />
+
                             </button>
+
                         </div>
 
                     </form>
+
                 </div>
+
             </section>
+
         </>
     )
 }

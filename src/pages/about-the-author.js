@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
-import AuthorImg from '../../static/author/dummy.png'
+import AuthorImg from '../../static/author/dummy1.png'
 import { Helmet } from 'react-helmet'
 import Slider from "react-slick";
 
@@ -46,7 +46,7 @@ const ATB = (props) => {
                                 <p>
                                     Dr. Henrietta Abbey graduated from Walden University in 2021. She received a doctorate degree in Philosophy. She has two masters' degrees and bachelor degree.
                                     Also, has an associate degree in Arts Applied Science in Early Childhood Education. She is currently an active veteran employee for the New York City Police Department
-                                    for over 20 years. She was inspired to write poems and books at the age of 16. Her mentor was "Cadee", an African writer. in her teens she wrote her daily activities in 
+                                    for over 20 years. She was inspired to write poems and books at the age of 16. Her mentor was "Cadee", an African writer. In her teens she wrote her daily activities in 
                                     diaries and journals. She read adventure, mystery, discovery, comic, romance, and literally books. Her favorite comic book was "The adventures of Tintin". She has only two 
                                     children, twins, and three siblings. She currently lives in the United States of America.
                                 </p>   
