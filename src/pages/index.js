@@ -8,6 +8,7 @@ import Author from '../components/author';
 import ParallaxBottom from "../components/parallax-bottom"
 import FeaturedLogos from '../components/mid-main';
 import { Helmet } from 'react-helmet';
+import Toast from '../components/toast';
 
 const IndexPage = (props) => (
 	<Layout>
@@ -18,6 +19,7 @@ const IndexPage = (props) => (
 		<Author />
 		<ParallaxBottom />
 		<FeaturedLogos />
+		<Toast />
 	</Layout>
 );
 

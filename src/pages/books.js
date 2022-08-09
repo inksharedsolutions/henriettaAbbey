@@ -5,7 +5,8 @@ import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import BookInfo2 from '../components/book-info/book-info2'
 import { DiscussionEmbed } from "disqus-react"
-import Book3 from '../../static/books/book.png'
+import Book from '../../static/books/book.png'
+import Book2 from '../../static/books/social.png'
 import sample from '../../static/books/sample.png'
 import { Helmet } from 'react-helmet'
 
@@ -39,7 +40,7 @@ const ATB = (props) => {
                             data={{
                                 title: `Memoire Memes `,
                                 // spanFirst: `Book 1: THE SHIPS`,
-                                imgSrc: Book3,
+                                imgSrc: Book,
                                 id: 'the_gifted_one',
                                 content:
                                     `  
@@ -63,20 +64,31 @@ const ATB = (props) => {
                             }}
                         />
 
-                        <BookInfo2
+                        <BookInfo
                             data={{
                                 title: `Social Networking as a Motivator for Social Gathering`,
                                 // spanFirst: `Book 1: THE SHIPS`,
-                                imgSrc: sample,
-                                id: 'the_gifted_one',
+                                imgSrc: Book2,
+                                id: 'social',
                                 content:
                                     `
-                                    <h5>Networking, computers, demonstrations, protests, public policy and administration, sociology, literature,research, opinions, discoveries, and law enforcement</h5>
+                                    <h5>Social Networking, Activism, Protesting, and Law Enforcement Collaboration</h5>
                                         
                                         <p>
-                                        Coming Soon
+                                            In the United States, many activists use social media platforms to interact with protesters to organize demonstrations and protests rapidly. Some politically motivated social gatherings organized online are without the knowledge of government or law enforcement personnel. The gatherings can become violent and result in chaos. In 2016, five officers were shot dead, with several others wounded during a Black Lives Matter (BLM) protest in Dallas, Texas. The purpose of this research is to determine the extent to which a variety of social media platforms contribute to New York City protesters and activists' participation in demonstrations that potentially pose a threat to the community. The study adds to the field of Public Policy and Administration by providing significant findings and suggesting that different approaches and attention to activists and protesters in the social media space could reduce influences that trigger and justify disruptive behaviors during public demonstrations while more promptly alerting appropriate city officials and law enforcement officers of potential problems. The study axis is a qualitative methodology explicitly focused on a phenomenological understanding of responses provided by activists and protesters understood and interpreted primarily according to Social Support Theory, developed by Robert E. Park. The findings of this study will help New York leaders develop prevention policies and safety techniques incorporating and responding to online activity that may avoid a repetition of the violence that happened in Dallas, Texas. Additionally, findings, interpretation of the data, and implications discovered will facilitate opportunities for protesters and activists to collaborate more effectively with city officials and law enforcement officers. Research findings from participants and data analysis revealed that protesting is an effective cause for social change, reformation, justice, and humanitarian enhancement in society.
                                         </p>
                                     `,
+
+                                ebooks: {
+                                    // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
+                                    barnes: 'https://www.barnesandnoble.com/w/social-networking-as-a-motivator-for-social-gathering-dr-henrietta-a-abbey/1141897939?ean=9781648959080',
+                                    amazon: 'https://www.amazon.com/dp/B0B7X39BLW/ref=sr_1_1?crid=307M9VLKNRQXS&keywords=9781648959080&qid=1659044458&sprefix=9781648959080%2Caps%2C891&sr=8-1',
+                                },
+                                paperback: {
+                                    amazon: 'https://www.amazon.com/Social-Networking-Motivator-Gathering-Collaboration/dp/1648959075/ref=sr_1_1?crid=1KJHIRPI7S8EQ&keywords=9781648959073&qid=1659639909&sprefix=the+first+arc+of+the+great+circle%2Caps%2C1096&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/social-networking-as-a-motivator-for-social-gathering-dr-henrietta-a-abbey/1141897939?ean=9781648959073',
+                                    booksamillion: '',
+                                }
                             }}
                         />
 

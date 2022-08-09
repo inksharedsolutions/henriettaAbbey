@@ -10,7 +10,7 @@ const Nav = (props) => {
     const pages = [
         'Home',
         'Author',
-        'Book',
+        'Books',
         'Contact'
     ]
 
@@ -64,7 +64,7 @@ const Nav = (props) => {
 
                 <li>
                     <Link to="/books">
-                        Book
+                        Books
 					</Link>
                 </li>
 
